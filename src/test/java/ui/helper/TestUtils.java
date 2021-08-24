@@ -23,8 +23,6 @@ public class TestUtils {
     @Before
     public void testSetup() {
         driver.get("http://automationpractice.com/index.php");
-        //Implicit wait
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
 }
